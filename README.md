@@ -1,7 +1,8 @@
 # Hangman Game
 
-Hangman game written in different programming languages and different frameworks
-Just go to the language directory that you want and get the source code and also a _README_ instructing you how to run the code.
+Hangman game written in different programming languages and different frameworks.  
+Just go to the language directory that you want and get the source code and also a _README_ instructing you how to run the code.  
+_Please don't forget to give a star to this repository_
 
 ## Available Languages
 
