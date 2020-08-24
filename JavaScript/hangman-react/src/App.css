@@ -1,0 +1,38 @@
+html,
+body {
+  background: #232526;
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, #414345, #232526);
+  color: #f1f1f1;
+}
+
+.figure-container {
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 4px;
+  stroke-linecap: round;
+}
+
+.letter {
+  border-bottom: 3px solid #2980b9;
+  display: inline-flex;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3px;
+  height: 40px;
+  width: 20px;
+}
+
+.card {
+  background-color: #1a1919;
+}
+
+.modal-content {
+  background-color: #1a1919 !important;
+  color: #fff !important;
+}
+
+.footer {
+  position: fixed;
+}
