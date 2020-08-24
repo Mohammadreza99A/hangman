@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/ngx-toastr/toastr.css";
+
+.letter {
+  border-bottom: 3px solid #2980b9;
+  display: inline-flex;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3px;
+  height: 40px;
+  width: 20px;
+}

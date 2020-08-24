@@ -1,0 +1,25 @@
+<div>
+  <h3>Guess The Hidden Word</h3>
+
+  <div *ngIf="store.selectedWord.length === 0">
+    <p class="lead">Loading the hidden word</p>
+  </div>
+
+  <div class="d-flex justify-content-center">
+    <div *ngFor="let letter of store.selectedWord.split('')">
+      <div
+        *ngIf="
+          store.correctLetters.includes(letter);
+          then thenBlock;
+          else elseBlock
+        "
+      ></div>
+      <ng-template #thenBlock>
+        <span class="letter">{{ letter }}</span>
+      </ng-template>
+      <ng-template #elseBlock>
+        <span class="letter">{{ " " }}</span>
+      </ng-template>
+    </div>
+  </div>
+</div>
