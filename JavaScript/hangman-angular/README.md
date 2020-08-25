@@ -2,6 +2,10 @@
 
 Hangman implementation in Angular.
 
+## Demo
+
+[Check out the demo](https://hangman-angular-js.netlify.app/)
+
 ## Quick Start
 
 ```bash

@@ -2,6 +2,10 @@
 
 Hangman implementation in VueJs.
 
+## Demo
+
+[Check out the demo](https://hangman-vue-js.netlify.app/)
+
 ## Quick Start
 
 ```bash
