@@ -2,6 +2,10 @@
 
 Hangman implementation in React.
 
+## Demo
+
+[Check out the demo](https://hangman-react-js.netlify.app/)
+
 ## Quick Start
 
 ```bash
