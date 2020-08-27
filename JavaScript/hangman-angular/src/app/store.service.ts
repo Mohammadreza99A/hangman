@@ -60,7 +60,7 @@ export class StoreService {
     this._wrongLetters.push(letter);
   }
 
-  public resetTheWord() {
+  public resetTheWord(): void {
     this._selectedWord = randomWords();
     this._correctLetters = [];
     this._wrongLetters = [];

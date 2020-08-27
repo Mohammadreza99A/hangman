@@ -10,4 +10,8 @@ export class WordInputComponent implements OnInit {
   constructor(public store: StoreService) {}
 
   ngOnInit(): void {}
+
+  changeWord(): void {
+    this.store.resetTheWord();
+  }
 }
