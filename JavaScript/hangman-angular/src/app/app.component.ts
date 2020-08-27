@@ -62,6 +62,6 @@ export class AppComponent implements AfterContentChecked {
   }
 
   showPopUp(msg: string, title: string) {
-    this.toastr.info(msg, title);
+    this.toastr.error(msg, title);
   }
 }

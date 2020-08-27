@@ -29,7 +29,7 @@ import { EndGameModalComponent } from './components/game/end-game-modal/end-game
     BrowserAnimationsModule,
     ToastrModule.forRoot({
       timeOut: 2500,
-      positionClass: 'toast-bottom-center',
+      positionClass: 'toast-top-center',
       preventDuplicates: true,
       progressBar: true,
     }),
