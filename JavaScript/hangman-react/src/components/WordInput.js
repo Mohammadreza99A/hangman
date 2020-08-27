@@ -1,9 +1,20 @@
 import React, { useContext } from 'react';
 import { Context } from '../context';
+import randomWords from 'random-words';
 
 const WordInput = () => {
-  const [state] = useContext(Context);
+  const [state, setState] = useContext(Context);
   const { selectedWord, correctLetters } = state;
+
+  const changeWord = () => {
+    setState({
+      selectedWord: randomWords(),
+      wrongLetters: [],
+      correctLetters: [],
+      playable: true,
+      msg: null,
+    });
+  };
 
   if (selectedWord) {
     return (
@@ -18,6 +29,9 @@ const WordInput = () => {
             );
           })}
         </div>
+        <button className="btn btn-secondary my-3" onClick={changeWord}>
+          Change The Word
+        </button>
       </>
     );
   } else {
