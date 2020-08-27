@@ -11,7 +11,9 @@ const WrongLetters = () => {
       <div className="d-flex justify-content-center">
         {wrongLetters.length === 0 && <p>No Wrong Letter</p>}
         {wrongLetters.map((letter) => (
-          <h6 className="letter">{letter}</h6>
+          <h6 key={letter} className="letter">
+            {letter}
+          </h6>
         ))}
       </div>
     </>

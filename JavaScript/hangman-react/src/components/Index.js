@@ -1,4 +1,4 @@
-import React, { useEffect, useContext } from 'react';
+import React, { useEffect, useContext, useRef } from 'react';
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -14,18 +14,13 @@ import { Context } from '../context';
 toast.configure();
 const Index = () => {
   const [state, setState] = useContext(Context);
-  const { correctLetters, wrongLetters, selectedWord, playable, msg } = state;
+  const { correctLetters, wrongLetters, selectedWord } = state;
+  const toastRef = useRef(null);
 
   const sendNotification = (msg) => {
-    toast(msg, {
-      position: 'bottom-center',
-      autoClose: 2000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: false,
-      draggable: true,
-      progress: undefined,
-    });
+    if (!toast.isActive(toastRef.current)) {
+      toastRef.current = toast.error(msg);
+    }
   };
 
   useEffect(() => {
@@ -36,14 +31,12 @@ const Index = () => {
         selectedWord
       );
       if (checkWinStatus === 'win') {
-        // sendNotification('');
         setState({
           ...state,
           playable: false,
           msg: 'Congratulations, You Have Won!',
         });
       } else if (checkWinStatus === 'lose') {
-        // sendNotification(`Game over. Correct word: ${selectedWord}`);
         setState({
           ...state,
           playable: false,
@@ -89,13 +82,13 @@ const Index = () => {
   return (
     <div className="container text-center mt-5">
       <ToastContainer
-        position="bottom-center"
+        position="top-center"
         autoClose={2000}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick
         rtl={false}
-        pauseOnFocusLoss
+        pauseOnFocusLoss={false}
         draggable
         pauseOnHover={false}
       />

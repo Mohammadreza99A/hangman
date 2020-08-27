@@ -1,8 +1,6 @@
 html,
 body {
   background: #232526;
-  background: -webkit-linear-gradient(to right, #414345, #232526);
-  background: linear-gradient(to right, #414345, #232526);
   color: #f1f1f1;
 }
 
