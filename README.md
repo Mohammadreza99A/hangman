@@ -1,6 +1,6 @@
 # Hangman Game
 
-Hangman game written in different programming languages and different frameworks.  
+Hangman game written in different programming languages and different frameworks and libraries.  
 Just go to the language directory that you want and get the source code and also a _README_ instructing you how to run the code.  
 _Please don't forget to give a star to this repository_
 
@@ -8,7 +8,7 @@ _Please don't forget to give a star to this repository_
 
 ### **JavaScript**
 
-&nbsp; **Frameworks**
+&nbsp; **Frameworks and Libraries**
 
 - React
 - Vue.js

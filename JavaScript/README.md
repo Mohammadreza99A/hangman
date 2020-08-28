@@ -1,6 +1,6 @@
 # Hangman In JavaScript
 
-## Available Frameworks
+## Available Frameworks and Libraries
 
 - React
 - Vue.js
