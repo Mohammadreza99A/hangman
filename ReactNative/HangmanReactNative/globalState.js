@@ -6,7 +6,7 @@ export const Context = React.createContext();
 export const ContextController = ({children}) => {
   let intialState = {
     selectedWord: null,
-    wrongLetters: [],
+    wrongLetters: [1, 2, 3, 4, 5, 6],
     correctLetters: [],
     playable: true,
     msg: null,
@@ -14,9 +14,9 @@ export const ContextController = ({children}) => {
 
   const [state, setState] = useState(intialState);
 
-  useEffect(() => {
-    setState({...state, selectedWord: randomWords()});
-  }, [setState]);
+  // useEffect(() => {
+  //   setState({...state, selectedWord: randomWords()});
+  // }, [setState]);
 
   return (
     <Context.Provider value={[state, setState]}>{children}</Context.Provider>
