@@ -71,6 +71,38 @@
 		<string>Octicons.ttf</string>
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
+		<string>SourceCodePro-Black.ttf</string>
+		<string>SourceCodePro-BlackItalic.ttf</string>
+		<string>SourceCodePro-Bold.ttf</string>
+		<string>SourceCodePro-BoldItalic.ttf</string>
+		<string>SourceCodePro-ExtraLight.ttf</string>
+		<string>SourceCodePro-ExtraLightItalic.ttf</string>
+		<string>SourceCodePro-Italic.ttf</string>
+		<string>SourceCodePro-Light.ttf</string>
+		<string>SourceCodePro-LightItalic.ttf</string>
+		<string>SourceCodePro-Medium.ttf</string>
+		<string>SourceCodePro-MediumItalic.ttf</string>
+		<string>SourceCodePro-Regular.ttf</string>
+		<string>SourceCodePro-SemiBold.ttf</string>
+		<string>SourceCodePro-SemiBoldItalic.ttf</string>
+		<string>ArchitectsDaughter-Regular.ttf</string>
+		<string>IndieFlower-Regular.ttf</string>
+		<string>JosefinSans-Bold.ttf</string>
+		<string>JosefinSans-BoldItalic.ttf</string>
+		<string>JosefinSans-ExtraLight.ttf</string>
+		<string>JosefinSans-ExtraLightItalic.ttf</string>
+		<string>JosefinSans-Italic-VariableFont_wght.ttf</string>
+		<string>JosefinSans-Italic.ttf</string>
+		<string>JosefinSans-Light.ttf</string>
+		<string>JosefinSans-LightItalic.ttf</string>
+		<string>JosefinSans-Medium.ttf</string>
+		<string>JosefinSans-MediumItalic.ttf</string>
+		<string>JosefinSans-Regular.ttf</string>
+		<string>JosefinSans-SemiBold.ttf</string>
+		<string>JosefinSans-SemiBoldItalic.ttf</string>
+		<string>JosefinSans-Thin.ttf</string>
+		<string>JosefinSans-ThinItalic.ttf</string>
+		<string>JosefinSans-VariableFont_wght.ttf</string>
 	</array>
 </dict>
 </plist>
