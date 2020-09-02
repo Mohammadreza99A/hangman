@@ -7,6 +7,7 @@
     "email": "mohammadreza99a@yahoo.com",
     "url": "https://github.com/Mohammadreza99A"
   },
+  "license": "MIT",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
