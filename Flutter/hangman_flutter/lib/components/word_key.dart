@@ -1,14 +1,12 @@
-import 'dart:developer';
-
 import 'package:flutter/cupertino.dart';
-
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class WordKey extends StatelessWidget {
-  WordKey({this.word});
+  WordKey({this.word, this.wordKeyPressed});
 
   final String word;
+  final Function wordKeyPressed;
 
   @override
   Widget build(BuildContext context) {
@@ -24,9 +22,7 @@ class WordKey extends StatelessWidget {
               textAlign: TextAlign.center,
               style: GoogleFonts.patrickHandSc(
                   fontSize: 30.0, fontWeight: FontWeight.w400)),
-          onPressed: () {
-            log(word);
-          },
+          onPressed: wordKeyPressed,
         ));
   }
 }
