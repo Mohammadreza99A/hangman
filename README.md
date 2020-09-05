@@ -15,6 +15,10 @@ _Please don't forget to give a star to this repository_
 - Angular
 - React-Native (iOS and Android)
 
+### **Flutter**
+
+&nbsp;For Android and iOS devices.
+
 ## Contributors
 
 _If you want to be part of this project and write this game in a language or framework that does not exist in the list, please contact mohammadreza99a@yahoo.com. Thank you._
