@@ -10,14 +10,22 @@ _Please don't forget to give a star to this repository_
 
 &nbsp; **Frameworks and Libraries**
 
-- React
-- Vue.js
-- Angular
-- React-Native (iOS and Android)
+- [React](https://github.com/Mohammadreza99A/hangman/tree/master/JavaScript/hangman-react)
+- [Vue.js](https://github.com/Mohammadreza99A/hangman/tree/master/JavaScript/hangman-vuejs)
+- [Angular](https://github.com/Mohammadreza99A/hangman/tree/master/JavaScript/hangman-angular)
+- [React-Native (iOS and Android)](https://github.com/Mohammadreza99A/hangman/tree/master/JavaScript/hangman-react-native)
 
 ### **Flutter**
 
-&nbsp;For Android and iOS devices.
+&nbsp; **For cross-platform including Android and iOS**
+
+- [Flutter](https://github.com/Mohammadreza99A/hangman/tree/master/Flutter/hangman_flutter)
+
+### **Java**
+
+&nbsp; **Libraries**
+
+- [JavaFX](https://github.com/Mohammadreza99A/hangman/tree/master/Java/hangman-javafx)
 
 ## Contributors
 
