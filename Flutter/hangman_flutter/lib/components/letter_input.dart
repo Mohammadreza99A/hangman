@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class LetterInput extends StatelessWidget {
-  LetterInput({this.letter});
+  LetterInput({required this.letter});
 
   final String letter;
 

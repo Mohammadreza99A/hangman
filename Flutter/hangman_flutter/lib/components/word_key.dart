@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class WordKey extends StatelessWidget {
-  WordKey({this.word, this.wordKeyPressed});
+  WordKey({required this.word, required this.wordKeyPressed});
 
   final String word;
-  final Function wordKeyPressed;
+  final VoidCallback wordKeyPressed;
 
   @override
   Widget build(BuildContext context) {

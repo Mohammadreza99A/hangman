@@ -13,10 +13,10 @@ class GameScreen extends StatefulWidget {
 }
 
 class GameScreenState extends State<GameScreen> {
-  String selectedWord;
-  List<String> correctLetters;
-  List<String> chosenWords;
-  int hangmanStage;
+  late String selectedWord;
+  late List<String> correctLetters;
+  late List<String> chosenWords;
+  late int hangmanStage;
 
   @override
   void initState() {

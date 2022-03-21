@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class Keyboard extends StatelessWidget {
-  Keyboard({this.wordKeyPressed, this.chosenWords});
+  Keyboard({required this.wordKeyPressed, required this.chosenWords});
 
   final Function wordKeyPressed;
   final List<String> chosenWords;
